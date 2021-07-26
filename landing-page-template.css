@@ -1,0 +1,163 @@
+
+body, html {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+.bg {
+  background-image: url("https://www.quattrodaily.com/wp-content/uploads/2019/07/audi-r8-lms-gt2-3-of-31.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin-top: 0;
+  
+}
+
+
+.boxes-size {
+  height: 50vh !important;
+  width: 100vw !important;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.emoji {
+  width: 10vw;
+ }
+ 
+header {
+  position:fixed;
+  top: 0;
+  width: 100vw;
+}
+
+#header-img {
+  height: auto;
+  max-width: 100px;
+  width: 100%;
+}
+
+input {
+  border: none;
+  height: 3vh;
+  outline: none;
+  width: 20vw;
+}
+
+
+.search-box {
+  background: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 6px;
+  width: 22vw;
+}
+
+.search-box:hover {
+  -webkit-box-shadow: -1px -1px 17px 1px rgba(183,240,51,1);
+  -moz-box-shadow: -1px -1px 17px 1px rgba(183,240,51,1);
+  box-shadow: -1px -1px 17px 1px rgba(183,240,51,1);
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 110px;
+}
+
+#video{
+  height: min-content;
+  padding-bottom: 20.25%; 
+  position: relative;
+  width: 50%; 
+}
+
+#video iframe{
+  height:100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media (max-width:1615px) {
+  input {
+    height: 2vh;
+    width: 18vw;
+  }
+}
+
+@media (max-width:841px) {
+  .small-screen {
+    font-size: 1.5vw;
+  }
+
+  .title-size {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 776px) {
+  .bg {
+    height: 100%;
+  }
+
+  .box-size {
+    font-size: 2vw;
+  }
+
+  .p-tag{
+    color: yellow !important;
+    font-size: 2vw;
+    margin-top: 3em;
+  }
+  
+  #video{
+    height: min-content;
+    padding-bottom: 20.25%; 
+    position: relative;
+    width: 40%; 
+  }
+  #video iframe{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width:577px) {
+  input {
+    height: 2vh;
+    width: 16vw;
+  }
+}
+
+@media (max-width:339px) {
+  .navbar-size-style {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 294px) {
+  input {
+    height: 1vh;
+    width: 10vw;
+  }
+}
+
+
+
